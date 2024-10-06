@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fonts */
+@font-face {
+  font-family: "Hatten";
+  src: url("assets/fonts/HATTEN.TTF") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.hatten-font {
+  font-family: "Hatten", sans-serif;
+}
+.urbanist-font {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.exo-font {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
