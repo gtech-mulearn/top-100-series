@@ -1,4 +1,4 @@
-import star from "../assets/star.svg";
+import star from "../assets/icons/star.svg";
 
 interface TimelineProps {
   date: string;
@@ -15,7 +15,7 @@ const TimelineCard = ({ date, description, className }: TimelineProps) => {
         </span>
         <img src={star} className="h-10 w-auto" alt="" />
       </div>
-      <p className="text-[#6D787F] exo-font text-sm mt-2">{description}</p>
+      <p className="text-[#6D787F] exo-font text-sm xl:text-base mt-2">{description}</p>
     </div>
   );
 };
