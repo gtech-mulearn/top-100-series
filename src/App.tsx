@@ -1,7 +1,10 @@
 import "./App.css";
+import TimeLine from "./sections/TimeLine";
 
 function App() {
-  return <>hello world</>;
+  return <>
+    <TimeLine/>
+  </>;
 }
 
 export default App;
