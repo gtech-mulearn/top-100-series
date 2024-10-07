@@ -1,6 +1,9 @@
 const Landing = () => {
   return (
-    <div className="xl:min-h-screen flex items-end justify-center text-white bg-[url('/landing_bg.webp')] bg-cover bg-center md:px-8">
+    <div
+      id="home"
+      className="xl:min-h-screen flex items-end justify-center text-white bg-[url('/landing_bg.webp')] bg-cover bg-center md:px-8"
+    >
       <div className="mb-12 max-xl:mt-48">
         <p className="text-[#D3184F] hatten-font text-[20vw] text-center leading-none relative">
           <img

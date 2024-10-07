@@ -9,8 +9,10 @@ import TimelineCard from "../components/TimelineCard";
 
 const TimeLine = () => {
   return (
-    <div className="w-full bg-background relative overflow-hidden py-14">
-
+    <div
+      id="tml"
+      className="w-full bg-background relative overflow-hidden py-14"
+    >
       <div className="flex w-full justify-between items-center relative">
         <img src={grid} className="w-[20%] md:w-[30%]" alt="" />
         <h3 className="hatten-font text-[#D3184F] text-6xl sm:text-[calc(100vh/5)] lg:text-[calc(100vh/4)] leading-none">
@@ -20,7 +22,6 @@ const TimeLine = () => {
       </div>
 
       <div className="mt-16 xl:mt-24 flex flex-col gap-8 sm:gap-5 px-5 md:px-10 lg:px-16 xl:px-24">
-
         <div className={`w-full flex relative`}>
           <TimelineCard
             date={TimeLines[0].date}
@@ -61,7 +62,6 @@ const TimeLine = () => {
           />
           <img src={Arrow4} className="w-40 max-md:hidden" alt="" />
         </div>
-
       </div>
       <img
         src={elipse}

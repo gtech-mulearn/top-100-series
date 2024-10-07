@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="p-8 md:p-20 bg-background pb-16 md:pb-32">
+    <div id="about" className="p-8 md:p-20 bg-background pb-16 md:pb-32">
       <div
         style={{
           boxShadow: "12px 12px 0px #6A54AA",
