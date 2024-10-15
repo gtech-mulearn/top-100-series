@@ -32,9 +32,11 @@ const Navbar = () => {
           Timeline
         </Link>
       </div>
-      <button className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-md font-semibold hover:bg-yellow-300 transition duration-300">
-        Register Now
-      </button>
+      <Link to="thm" smooth={true} duration={500}>
+        <button className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-md font-semibold hover:bg-yellow-300 transition duration-300">
+          Register Now
+        </button>
+      </Link>
     </nav>
   );
 };
