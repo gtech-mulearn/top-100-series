@@ -10,7 +10,7 @@ const THM = () => {
       <div className="flex flex-col items-center gap-8 p-10">
         <a
           className="cursor-pointer"
-          href="https://top100coders-acv.vercel.app/"
+          href="https://coders.top100series.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,7 +18,7 @@ const THM = () => {
         </a>
         <a
           className="cursor-pointer"
-          href="https://top100designers.vercel.app/"
+          href="https://designers.top100series.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ const THM = () => {
         </a>
         <a
           className="cursor-pointer"
-          href="https://top100makers.vercel.app/"
+          href="https://makers.top100series.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
