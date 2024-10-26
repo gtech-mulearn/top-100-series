@@ -1,6 +1,6 @@
 export const TimeLines = [
   {
-    date: "22 - 26 OCT",
+    date: "26 OCT",
     description:
       "Level 2 tasks are up and set to go! Lock in yourselves for the next round of challenges designed to test your skills to the limit. See you on the other side!",
   },
